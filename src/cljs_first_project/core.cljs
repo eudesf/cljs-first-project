@@ -4,4 +4,6 @@
 (defonce conn
   (repl/connect "http://localhost:9000/repl"))
 
-(println "Hello!")
+(enable-console-print!)
+
+(println "Hello from cljs!")
